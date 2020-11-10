@@ -1,0 +1,75 @@
+# Finance Tool Questions
+
+Initial Slides at https://docs.google.com/presentation/d/11jypDE2g_6H_bM8MVTfVeSRtIU0wqhJF3EwrVKg4GI0
+
+## Clarification on hirarchie and domain specific wording
+
+Alliance Leader of Vindi Role: HighCommand
+
+Alliance Regional Leader: "High Sec", "Null Sec", "Low Sec"
+Alliance Regional Department Head: "High Sec Industry", High Sec PvP, High Sec Infra
+!Both have same permissions / rights on objects in solution!
+
+General
+Q: What is a stock in scope of this project?
+Q: What is the difference between an Alliance and a Regional Alliance?
+A: Top Level, then Regional: High / Low / Null, then corp
+Q: How do I detmine if a user is
+  * Regional Alliance Leader
+  * Regional Dept. Head
+  * Financial Dept. Head
+  * High Command
+A: Assumption / 1st shot: Alliance leader can assign a role to a person
+Q: What is a wallet division?
+A: Section of a Corp Wallet
+
+Stretch Goals
+* Stocks
+  * buy
+  * calculate value
+  * sell
+* Line Member Logins
+* 
+
+Model
+Department 1 -> Element
+
+Slide 4
+Line Member Login
+Q: What exactly is shown after login?
+  Region (how is region determined) specific Alliance Net Worth (all or mine),
+  Stocks (of what) owned (by whom)
+A: 
+
+Slide 5
+Regional Alliance Leaders
+Q: What is a Regional Alliance Manager? What does she manage?
+A: 
+Q: Is income and expense chart an sub point or is it a separate feature?
+A: Chart is on top, form for submitting new is below
+
+Slide 7
+Reg. Dept. Heads Budget input section
+Q: What is a department? Does is span across Alliances?
+A:
+Q: Is High/Low/Null a sub section of a specific department? E. g. do I select "Production" and then "High" or "Null" or is that one page and sec state is an attribute?
+Or Q: Please describe the way that a budget request is inserted step by step.
+A:
+  1. Select Department (infra, pvp, ...),
+  2. Select income or expense
+  3. select predetermined element, depending on "Department".
+  4. Optionally: "add new" or misc shall be there.
+  5. 
+Q: What "type"s of expenses are there? Complete list needed.
+A: Can be access from Markus
+
+Slide 8
+Q: Please desribe what exactly shall be calculated and displayed here. :)
+A: 
+Q: After entering multiple budget items and "Next"ing, should the next month be displayed or the next X months? Assuming the next month.
+A: Last 3 month, + forecast for planned month according to entered budget
+Q: It says "current" Regional Alliance. Is that switchable / changable by user? Can she have multiple Alliances or some non regional Alliance? Question may be answered already as "Regional Alliance" is to be defined in General questsions.
+
+
+Notes:
+* Month over Month Growth is https://clevertap.com/blog/month-over-month/
