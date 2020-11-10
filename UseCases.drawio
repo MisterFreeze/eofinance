@@ -1,0 +1,258 @@
+<mxfile host="app.diagrams.net" modified="2020-11-10T15:04:51.236Z" agent="5.0 (X11)" etag="NgeNsLmkMPvOYdOA6kK_" version="13.9.3" type="github">
+  <diagram name="Page-1" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
+    <mxGraphModel dx="1444" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="haLzdeM9EkTsa79iWw9B-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="230" y="410" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-2" value="Display Line Member Start Page" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="730" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-3" value="&lt;div&gt;View Region specific Alli Net Worth, my stocks and options to purchase stocks&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="890" y="40" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-4" value="&lt;div&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/div&gt;" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="haLzdeM9EkTsa79iWw9B-2" target="haLzdeM9EkTsa79iWw9B-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="270" as="sourcePoint" />
+            <mxPoint x="830" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-5" value="" style="endArrow=none;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="haLzdeM9EkTsa79iWw9B-1" target="haLzdeM9EkTsa79iWw9B-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="350" as="sourcePoint" />
+            <mxPoint x="580" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-6" value="View Region Net Worth MoM" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="920" y="130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-7" value="&lt;div&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/div&gt;" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="haLzdeM9EkTsa79iWw9B-2" target="haLzdeM9EkTsa79iWw9B-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="764" y="130" as="sourcePoint" />
+            <mxPoint x="930" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-10" value="Links to other Alliances:&lt;br&gt;&lt;div&gt;* Regional Specifc Rules&lt;/div&gt;&lt;div&gt;* Auth Sites&lt;/div&gt;&lt;div&gt;* Buy Back Programs&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="883" y="220" width="194" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-11" value="&lt;div&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/div&gt;" style="endArrow=classic;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="haLzdeM9EkTsa79iWw9B-2" target="haLzdeM9EkTsa79iWw9B-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="160" as="sourcePoint" />
+            <mxPoint x="886" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-13" value="Authenticate" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="300" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-14" value="&lt;div&gt;&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;&lt;/div&gt;" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="haLzdeM9EkTsa79iWw9B-2" target="haLzdeM9EkTsa79iWw9B-34" edge="1">
+          <mxGeometry x="0.3448" y="-22" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900.0000000000023" y="60" as="sourcePoint" />
+            <mxPoint x="680" y="230" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-22" value="Line Member" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="690" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-23" value="" style="endArrow=none;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="haLzdeM9EkTsa79iWw9B-22" target="haLzdeM9EkTsa79iWw9B-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="479.9999999999998" as="sourcePoint" />
+            <mxPoint x="180" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-24" value="View Regional Alliance Leader Start Page" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="690" y="415.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-26" value="&lt;div&gt;Show Regions Net Worth MoM&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="990" y="385.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-27" value="&lt;div&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/div&gt;" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="haLzdeM9EkTsa79iWw9B-24" target="haLzdeM9EkTsa79iWw9B-26" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="205.5" as="sourcePoint" />
+            <mxPoint x="1080.000000000001" y="305.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-28" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="endArrow=classic;html=1;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="haLzdeM9EkTsa79iWw9B-24" target="haLzdeM9EkTsa79iWw9B-34" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="150" as="sourcePoint" />
+            <mxPoint x="720" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-33" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="haLzdeM9EkTsa79iWw9B-25" target="haLzdeM9EkTsa79iWw9B-24" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="495.4999999999998" as="sourcePoint" />
+            <mxPoint x="350" y="425.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-34" value="Show Start Page" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="490" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-37" value="View Monthly Alliance Budget" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="990" y="495.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-38" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="haLzdeM9EkTsa79iWw9B-25" target="haLzdeM9EkTsa79iWw9B-37" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="615.4999999999998" as="sourcePoint" />
+            <mxPoint x="687.5735931288073" y="563.7842712474617" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-40" value="View Department Budget Detail" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="790" y="725.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-42" value="" style="endArrow=none;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="haLzdeM9EkTsa79iWw9B-25" target="haLzdeM9EkTsa79iWw9B-40" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="615.5" as="sourcePoint" />
+            <mxPoint x="860" y="711" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-43" value="&lt;div&gt;Submit budget for upcoming month&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="990" y="601" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-45" value="Submit misc cost for current month" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="990" y="701" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-46" value="Request additional funds" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="701" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-47" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="haLzdeM9EkTsa79iWw9B-46" target="haLzdeM9EkTsa79iWw9B-45" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="420.9999999999998" as="sourcePoint" />
+            <mxPoint x="950" y="341.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-48" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="haLzdeM9EkTsa79iWw9B-25" target="haLzdeM9EkTsa79iWw9B-45" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="615.5" as="sourcePoint" />
+            <mxPoint x="490" y="885.4999999999998" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-50" value="&lt;div&gt;Regional&lt;/div&gt;&amp;nbsp;Dep. Head" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="533" y="900" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-25" value="&lt;div&gt;Regional&lt;/div&gt;&lt;div&gt;Alliance Leader&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="700" y="621" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-53" value="" style="endArrow=none;html=1;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.058;exitY=0.469;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="haLzdeM9EkTsa79iWw9B-43" target="haLzdeM9EkTsa79iWw9B-25" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="695.5" as="sourcePoint" />
+            <mxPoint x="580" y="805.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-54" value="Request Dept. Budget per Sec Status and type of expense" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="683" y="950" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-55" value="" style="endArrow=none;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="haLzdeM9EkTsa79iWw9B-50" target="haLzdeM9EkTsa79iWw9B-54" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="673" y="930" as="sourcePoint" />
+            <mxPoint x="623" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-56" value="Slide 8" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="683" y="830" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-57" value="View submitted budget items" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="923" y="950" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-58" value="&lt;div&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/div&gt;" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="haLzdeM9EkTsa79iWw9B-54" target="haLzdeM9EkTsa79iWw9B-57" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="436.4999999999932" y="999.9999999999998" as="sourcePoint" />
+            <mxPoint x="636.5" y="700.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-59" value="&lt;div&gt;Financial Dept. Head /&lt;/div&gt;&lt;div&gt;High Command&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="340" y="710" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-60" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;" parent="1" source="haLzdeM9EkTsa79iWw9B-59" target="haLzdeM9EkTsa79iWw9B-50" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="240" y="580" as="sourcePoint" />
+            <mxPoint x="400" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-61" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;" parent="1" source="haLzdeM9EkTsa79iWw9B-59" target="haLzdeM9EkTsa79iWw9B-25" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="430" y="539.9999999999998" as="sourcePoint" />
+            <mxPoint x="245" y="709.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-62" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="haLzdeM9EkTsa79iWw9B-59" target="haLzdeM9EkTsa79iWw9B-22" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="800" y="580" as="sourcePoint" />
+            <mxPoint x="245" y="709.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-63" value="Auth with EVE SSO" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="286.5" y="30" width="147" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-64" value="&lt;div&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/div&gt;" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="haLzdeM9EkTsa79iWw9B-13" target="haLzdeM9EkTsa79iWw9B-63" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="219.99640687119233" y="40.00427124746167" as="sourcePoint" />
+            <mxPoint x="273.57000000000005" y="-38.28" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-65" value="&lt;div&gt;&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;&lt;/div&gt;" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="haLzdeM9EkTsa79iWw9B-34" target="haLzdeM9EkTsa79iWw9B-13" edge="1">
+          <mxGeometry x="-0.1429" y="-10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="899.9999999999995" y="150" as="sourcePoint" />
+            <mxPoint x="620.0000000000041" y="190" as="targetPoint" />
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-66" value="Condition:&lt;br&gt;Login Succeeded" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="haLzdeM9EkTsa79iWw9B-65" vertex="1" connectable="0">
+          <mxGeometry x="-0.1736" y="2" relative="1" as="geometry">
+            <mxPoint x="-3.11" y="38" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-67" value="Enter Alliance ESI token" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="250" y="555.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-69" value="" style="endArrow=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="haLzdeM9EkTsa79iWw9B-67" target="haLzdeM9EkTsa79iWw9B-59" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="455" y="739.9999999999998" as="sourcePoint" />
+            <mxPoint x="440" y="855.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-70" value="View Incom/Expense per alli, ordered by wallet division" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="100" y="650" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-71" value="Review Budget Items (Edit/Accept/Reject)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="100" y="790" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-72" value="" style="endArrow=none;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="haLzdeM9EkTsa79iWw9B-59" target="haLzdeM9EkTsa79iWw9B-71" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="730" as="sourcePoint" />
+            <mxPoint x="355" y="719.9999999999998" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-73" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="haLzdeM9EkTsa79iWw9B-70" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="739.9999999999998" as="sourcePoint" />
+            <mxPoint x="340" y="730" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-77" value="Confirmed Functionality" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="30" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-78" value="Non functional or abstract" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="30" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-79" value="Actor / Role" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=2;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="75" y="210" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="haLzdeM9EkTsa79iWw9B-80" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="haLzdeM9EkTsa79iWw9B-50" target="haLzdeM9EkTsa79iWw9B-56" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="93" y="840" as="sourcePoint" />
+            <mxPoint x="353.0000000000068" y="849.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
